@@ -1,0 +1,7 @@
+com/alchemy/pages/AlchemyGamePage.class
+com/vkvideo/config/DriverConfig.class
+com/vkvideo/pages/BasePage.class
+com/vkvideo/pages/MainPage.class
+com/vkvideo/pages/VideoPlayerPage.class
+com/alchemy/config/AlchemyDriverConfig.class
+com/alchemy/pages/AlchemyMainMenuPage.class

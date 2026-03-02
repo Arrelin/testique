@@ -1,0 +1,9 @@
+# Created at 2026-03-02T13:03:03.921
+Stream closed
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:189)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:326)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:388)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:289)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:330)
+	at java.base/java.io.BufferedI

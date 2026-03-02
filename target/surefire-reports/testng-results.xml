@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-02T13:09:10 MSK" name="Mobile Tests Suite" finished-at="2026-03-02T13:11:36 MSK" duration-ms="146291">
+    <groups>
+    </groups>
+    <test started-at="2026-03-02T13:09:10 MSK" name="VK Video Playback Tests" finished-at="2026-03-02T13:09:39 MSK" duration-ms="29133">
+      <class name="com.vkvideo.VideoPlaybackTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vkvideo.VideoPlaybackTest@63021689]" started-at="2026-03-02T13:09:10 MSK" name="setUp" finished-at="2026-03-02T13:09:12 MSK" duration-ms="2411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="videoShouldPlay()[pri:1, instance:com.vkvideo.VideoPlaybackTest@63021689]" started-at="2026-03-02T13:09:12 MSK" name="videoShouldPlay" finished-at="2026-03-02T13:09:34 MSK" duration-ms="21688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoShouldPlay -->
+        <test-method is-config="true" signature="restoreNetworkIfNeeded()[pri:0, instance:com.vkvideo.VideoPlaybackTest@63021689]" started-at="2026-03-02T13:09:34 MSK" name="restoreNetworkIfNeeded" finished-at="2026-03-02T13:09:34 MSK" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreNetworkIfNeeded -->
+        <test-method signature="videoShouldFailGracefullyWithoutNetwork()[pri:2, instance:com.vkvideo.VideoPlaybackTest@63021689]" started-at="2026-03-02T13:09:34 MSK" name="videoShouldFailGracefullyWithoutNetwork" finished-at="2026-03-02T13:09:39 MSK" duration-ms="4603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoShouldFailGracefullyWithoutNetwork -->
+        <test-method is-config="true" signature="restoreNetworkIfNeeded()[pri:0, instance:com.vkvideo.VideoPlaybackTest@63021689]" started-at="2026-03-02T13:09:39 MSK" name="restoreNetworkIfNeeded" finished-at="2026-03-02T13:09:39 MSK" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restoreNetworkIfNeeded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vkvideo.VideoPlaybackTest@63021689]" started-at="2026-03-02T13:09:39 MSK" name="tearDown" finished-at="2026-03-02T13:09:39 MSK" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vkvideo.VideoPlaybackTest -->
+    </test> <!-- VK Video Playback Tests -->
+    <test started-at="2026-03-02T13:09:39 MSK" name="Alchemy Hint Tests" finished-at="2026-03-02T13:11:36 MSK" duration-ms="117143">
+      <class name="com.alchemy.AlchemyHintTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.alchemy.AlchemyHintTest@72f926e6]" started-at="2026-03-02T13:09:39 MSK" name="setUp" finished-at="2026-03-02T13:09:42 MSK" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="hintCountShouldIncreaseBy2AfterWatchingAd()[pri:0, instance:com.alchemy.AlchemyHintTest@72f926e6]" started-at="2026-03-02T13:09:42 MSK" name="hintCountShouldIncreaseBy2AfterWatchingAd" finished-at="2026-03-02T13:11:36 MSK" duration-ms="114062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hintCountShouldIncreaseBy2AfterWatchingAd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.alchemy.AlchemyHintTest@72f926e6]" started-at="2026-03-02T13:11:36 MSK" name="tearDown" finished-at="2026-03-02T13:11:36 MSK" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.alchemy.AlchemyHintTest -->
+    </test> <!-- Alchemy Hint Tests -->
+  </suite> <!-- Mobile Tests Suite -->
+</testng-results>
